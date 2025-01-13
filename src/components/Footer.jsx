@@ -49,7 +49,7 @@ const Footer = () => {
 
                 {/* News Letter Section*/}
                 <div className=''>
-                    <h4 className='font-bold text-lg mb-4 mt-10'> Newslertter</h4>
+                    <h4 className='font-bold text-lg mb-4 mt-10'> Newsletter</h4>
                     <p className='text-sm text-gray-400 mb-6'>
                         Don't miss out on the exciting world of travel - subscribe now 
                         and embark on a journey of discovery with us.
