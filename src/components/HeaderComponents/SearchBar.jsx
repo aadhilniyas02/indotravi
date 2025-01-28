@@ -55,7 +55,7 @@ const SearchBar = () => {
    }
 
 return (
-    <div className="md:flex items-center justify-between bg-white/10 backdrop-blur-md rounded-3xl sm:rounded-3xl md:rounded-full lg:rounded-full shadow-lg px-10 py-10 md:px-4 md:py-2  sm:w-4/5  md:w-9/12 relative ">
+    <div className="md:flex items-center justify-between bg-white/10 backdrop-blur-md rounded-3xl sm:rounded-3xl md:rounded-full lg:rounded-full shadow-lg px-10 py-4 md:px-4 md:py-2  sm:w-4/5  md:w-9/12 relative ">
     
                     {/* Date Select */}
                     <div className=" mb-4 md:mb-0 lg:mb-0 flex items-center gap-4 sm:gap-3 lg:gap-2  flex-1 space-x-2 relative">
@@ -210,7 +210,7 @@ return (
 
                         {/* Search Button */}
                         <button
-                                className="bg-white text-gray-700 mt-5 md:mt-0 lg:-0 px-6 md:px-10 lg:px-10 py-1 md:py-2 lg:py-2 rounded-full shadow-md hover:bg-gray-200 "
+                                className="bg-white text-gray-700 mt-1 md:mt-0 lg:-0 px-6 md:px-10 lg:px-10 py-0 md:py-2 lg:py-2 rounded-full shadow-md hover:bg-gray-200 "
                                         onClick={handleSearch}
                                 >
                                 Search
