@@ -1,6 +1,6 @@
 # IndoTravi Landing Page
 
-Overview : This project is a fully responsive landing page for IndoTravi created using React, TailwindCSS, and JavaScript. It includes interactive components for the date, budget, and guest search form, along with placeholder images.
+Overview : This project is a fully responsive landing page for IndoTravi, I recreated using React, TailwindCSS, and JavaScript. It includes interactive components for the date, budget, and guest search form, along with placeholder images.
 
 Features : Responsive design for mobile, tablet, and desktop views. Smooth hover effects and transitions for interactive elements. Mock functionality for the search form . Placeholder images sourced from Pexels .
 
