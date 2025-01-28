@@ -5,8 +5,8 @@ const CardNew = () => {
 
     const cards = [
         { label: 'Total Customers', targetValue: 10, suffix:"M+" , duration: 200000000},
-        { label: 'years of Experience', targetValue: 9, suffix:"+" , duration: 150000000 },
-        { label: 'Total Destinations', targetValue: 12, suffix:"K+" ,duration: 100000000},
+        { label: 'years of Experience', targetValue: '09', suffix:"+" , duration: 150000000 },
+        { label: 'Total Destinations', targetValue: 12, suffix:"K" ,duration: 100000000},
         { label: 'Average Rating', targetValue: 5.0, suffix:".0" , duration: 120000000},
     ];
 

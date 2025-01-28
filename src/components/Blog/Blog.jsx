@@ -1,8 +1,9 @@
 import React, {useState, useEffect, useRef} from 'react';
-import soloBlog from "../assets/soloBlog.jpg";
-import jeepBlog from "../assets/jeepBlog.jpg";
-import suteBlog from "../assets/suteBlog.jpg";
-import beachBlog from "../assets/beachBlog.jpg";
+import soloBlog from '../../assets/soloBlog.jpg';
+import jeepBlog from '../../assets/jeepBlog.jpg';
+import suteBlog from '../../assets/suteBlog.jpg';
+import beachBlog from '../../assets/beachBlog.jpg';
+
 
 const Blog = () => {
 
@@ -87,8 +88,7 @@ const Blog = () => {
   return (
     <div 
     ref={sectionRef}
-    className={`bg-gray-100 min-h-screen pt-20 md:pt-40 pb-20 md:pb-40 transform transition-transform duration-1000
-     ease-in-out ${isVisible ? 'translate-x-0' : '-translate-x-full'}`}
+    className='bg-gray-100 min-h-screen pt-20 md:pt-40 pb-20 md:pb-40'
      >
        
        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
@@ -126,7 +126,7 @@ const Blog = () => {
                 <div className='mt-8 md:mt-14 text-center'>
                     <button
                     onClick={handleViewMore}
-                    className='px-4 md:px-5 py-2 md:py-3 bg-black text-white text-xs md:text-sm font-medium rounded-full before:ease shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 '
+                    className='px-4 md:px-5 py-2 md:py-3 bg-black text-white text-xs md:text-sm font-medium rounded-full before:ease shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6'
                     >
                     View More
                     </button>

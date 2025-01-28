@@ -1,7 +1,8 @@
 import React from 'react';
-import baliP from "../assets/baliP.jpg";
-import soloP from "../assets/soloP.jpg";
-import javaP from "../assets/javaP.jpg";
+import baliP from "../../assets/baliP.jpg";
+import javaP from "../../assets/javaP.jpg";
+import soloP from "../../assets/soloP.jpg";
+import {faStar} from '@fortawesome/free-solid-svg-icons';
 
 const Packages = () => {
 
@@ -41,11 +42,11 @@ const Packages = () => {
                 {/* Head Texts */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-center text-centerr mb-8'>
                     <div>
-                        <p className=' text-md md:text-lg text-gray-400'> Tour Packages </p>
-                        <h1 className='text-3xl md:text-5xl font-bold text-gray-900'> Our tourist destination </h1>
+                        <p className=' text-md md:text-lg text-gray-400 pl-8 md:pl-0 lg:pl-0'> Tour Packages </p>
+                        <h1 className='text-3xl md:text-5xl font-bold text-gray-900 pl-8 md:pl-0 lg:pl-0'> Our tourist destination </h1>
                     </div>
                     <div>
-                        <p className='text-gray-400 mt-4 md:mt-10  md:text-right text-base md:text-xl'>
+                        <p className='text-gray-400 mt-2 md:mt-10 pl-8 md:pl-0 lg:pl-24 md:text-left text-sm md:text-xl'>
                             Our tourist destinations offer an unrivaled blend of 
                             <br />natural beauty and cultural richness
                         </p>
@@ -53,11 +54,11 @@ const Packages = () => {
                 </div>
 
                 {/* Card Section */}
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 py-4'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 py-4 px-7 md:px-0 lg:px-0'>
                     {packs.map((pack) => (
                         <div 
                             key={pack.id} 
-                            className='relative h-[400px] sm:h-[450px] md:h[500px] w-[300px] sm:w-[350px] md:w[400px] rounded-3xl overflow-hidden mt-8 transition-shadow duration-700 cursor-pointer hover:shadow-lg hover:shadow-gray-800'
+                            className='relative h-[400px] sm:h-[450px] md:h[500px] w-[300px] sm:w-[350px] md:w[400px] rounded-3xl mt-8 transition-shadow duration-700 cursor-pointer hover:shadow-lg hover:shadow-gray-800'
                         >
                             <img
                                 src={pack.image} 
@@ -71,7 +72,7 @@ const Packages = () => {
 
                                  {/* Rating */}
                             <div className='absolute top-3 right-3 bg-gray-100/30 backdrop-blur-md bg:drop text-white text-xs px-3 py-1  rounded-full flex items-center'> 
-                                <span className='mr-1'> ⭐ </span> {pack.rating}
+                                <span className='fa fa-star checked  mr-1' style={{ color: "gold" }}> </span> {pack.rating}
                             </div>
 
                                  {/* Card footer */}
@@ -90,7 +91,7 @@ const Packages = () => {
                  {/* View More Button */}
                 <div className='mt-14 text-center'>
                         <button  
-                        className='px-4 md:px-6 py-2 md:py-3 bg-black text-white text-sm md:text-base font-medium rounded-full before:ease shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 '
+                        className='px-4 md:px-6 py-2 md:py-3 bg-black text-white text-sm md:text-base font-medium rounded-full  shadow-2xl before:absolute before:right-0 before:top-0 before:h-12 before:w-6  hover:shadow-gray-500  '
                         >
                         View More
                         </button>

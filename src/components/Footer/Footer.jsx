@@ -1,4 +1,5 @@
 import React from 'react'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
   return (
@@ -56,12 +57,18 @@ const Footer = () => {
                     </p>
 
                     <div className='flex items-center space-x-2 bg-gray-800 rounded-full p-2'>
+                       
+                        {/* Email Icon */}
+                        <i className="fa fa-envelope text-white text-sm ml-2" ></i>
+                        
                         <input
                         type="email" 
                         placeholder='Enter your email'
                         className='bg-transparent flex-1 text-sm outline-none px-4 text-white placeholder-gray-400'
                         />
-                        <button className='bg-gray-600 text-white px-4 py-2 rounded-full text-sm'> Submit</button>
+                        <button className='bg-gray-600 text-white px-4 py-2 rounded-full text-sm'>  
+                             Submit
+                        </button>
                     </div>
 
                     {/* Social Media Icons*/}

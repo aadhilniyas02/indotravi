@@ -12,11 +12,11 @@ const LanguageToogle = () => {
         <div className={`flex items-center justify-between w-20 h-10  rounded-full p-1 cursor-pointer bg-gray-100/30 backdrop-blur-md bg:drop`}
         onClick={LanguageBtn}
         >
-            <div className={`flex items-center justify-center w-8 h-8 rounded-full ${language === 'de' ? 'bg-white' : 'bg-gray-300/50'}`}>
+            <div className={`flex items-center justify-center w-8 h-8 rounded-full ${language === 'de' ? 'bg-white' : ''}`}>
                 De
             </div>  
 
-            <div className={`flex items-center justify-center w-8 h-8 rounded-full ${language === 'en' ? 'bg-white' : 'bg-gray-300/50'}`}>
+            <div className={`flex items-center justify-center w-8 h-8 rounded-full ${language === 'en' ? 'bg-white' : ''}`}>
                 En
             </div>  
 
