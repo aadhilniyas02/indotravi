@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='max-w-8xl mx:auto px-6 sm:px-8 lg:px-24'>
 
             {/* Footer Top*/}
-            <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-x-15 text-center sm:text-left'>
+            <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 lg:gap-x-8 text-center sm:text-left'>
 
                 {/* About Section */}
                 <div>
@@ -72,24 +72,26 @@ const Footer = () => {
                     </div>
 
                     {/* Social Media Icons*/}
-                    <div>
+                    <div className='flex justify-end space-x-4 ml-2 mt-3'>
 
-                        <a href="#" className='text-gray-400 hover:text-white'>
-                            <i className='fab fa-instagram text-2xl'></i>
-                        </a>
+<a href="#" className='text-gray-400 hover:text-white'>
+    <i className='fab fa-instagram text-2xl'></i>
+</a>
 
-                        <a href="#" className='text-gray-400 hover:text-white'>
-                            <i className='fab fa-facebook text-2xl'></i>
-                        </a>
+<a href="#" className='text-gray-400 hover:text-white'>
+    <i className='fab fa-facebook text-2xl'></i>
+</a>
 
-                        <a href="#" className='text-gray-400 hover:text-white'>
-                            <i className='fab fa-youtube text-2xl'></i>
-                        </a>
+<a href="#" className='text-gray-400 hover:text-white'>
+    <i className='fab fa-youtube text-2xl'></i>
+</a>
 
-                    </div>
+</div>
                 </div>
+                 
 
             </div>
+            
 
                     {/* Footer Bottom - Copy Right*/}
                     <div className='mt-20 text-center text-gray-400 text-sm'>
