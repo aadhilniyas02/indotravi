@@ -46,7 +46,7 @@ const Navbar = () => {
 
           {/* mobile view nav bar */}
         
-        <div className={`fixed top-15 right-0 w-96 h-96 rounded-lg bg-gray-400/50 backdrop-blur-lg shadow-lg transition-transform duration-300 ${
+        <div className={`fixed top-15 right-0 w-96 h-1/2 rounded-lg bg-gray-400/50 backdrop-blur-lg shadow-lg transition-transform duration-300 ${
             isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
                   }`} >
           <ul className='flex flex-col items-center gap-4 mt-5 px-5 text-lg font-medium'>
@@ -57,6 +57,7 @@ const Navbar = () => {
             <li> <a href="#About" className='px-4 py-2 rounded-full inline-block text-gray-100' > About </a> </li>
             <li> <a href="#Contact" className='px-4 py-2 rounded-full inline-block text-gray-100' > Contact </a> </li>
             <li> <a href="#Login" className='px-4 py-2 rounded-full inline-block text-gray-100' > Login </a> </li>
+            <li><LanguageBtn /> {/* Language Swtiching Component */}</li>
 
           </ul>
         </div>
