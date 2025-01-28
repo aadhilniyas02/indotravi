@@ -9,3 +9,4 @@ Technologies Used : React: Framework for building the UI. TailwindCSS: CSS frame
 Prerequisites : Before setting up the project, ensure you have the following installed: Node.js (v14 or later) |
 
 Setup Instructions : Clone the Repository - git clone https://github.com/your-username/indo-travi-landing-page.git cd indo-travi-landing-page | Install Dependencies - npm install | Start the project - npm run dev
+https://github.com/aadhilniyas02/indotravi/blob/main/Screenshot%202025-01-28%20175234.png?raw=true
